@@ -1,0 +1,75 @@
+h1{
+  color: #1d83f7;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: black 1px 1px;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("https://images.homedepot-static.com/productImages/06bbc5c5-e766-4425-a761-b5f5901f21cb/svn/magnolia-home-by-joanna-gaines-wallpaper-mk1170-64_600.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  background-color: #1d83f7;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.0);
+    border: none;
+
+}
+
+#laundry {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 10%;
+}
+
+#shower {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 50%;
+}
+
+#sink {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 70%;
+}
+
+#toilet {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 83%;
+}
